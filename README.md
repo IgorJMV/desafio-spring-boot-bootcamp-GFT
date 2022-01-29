@@ -43,7 +43,7 @@ Todas as dependências do projeto são gerenciadas pelo Apache Maven. Para teste
 # Tecnologias utilizadas
 - [![NPM](https://img.shields.io/badge/Java-ED8B00?style=for-the-badge&logo=java&logoColor=white)](https://www.oracle.com/java/technologies/downloads/#jdk17) versão: 17.0.2 2022-01-18 LTS
 - [![NPM](https://img.shields.io/badge/-Lombok-red?style=for-the-badge&logo=lombok)](https://projectlombok.org/) versão: 1.18.22
-- [![NPM](https://img.shields.io/badge/Spring_Boot-F2F4F9?style=for-the-badge&logo=spring-boot)](https://spring.io/projects/spring-boot)versão: 2.6.3
+- [![NPM](https://img.shields.io/badge/Spring_Boot-F2F4F9?style=for-the-badge&logo=spring-boot)](https://spring.io/projects/spring-boot) versão: 2.6.3
 - [![NPM](https://img.shields.io/badge/-H2-blue?style=for-the-badge&logo=h2)](https://www.h2database.com/html/main.html) Banco de dados em memória
 - [![NPM](https://img.shields.io/badge/-Swagger-brightgreen?style=for-the-badge&logo=swagger)](https://swagger.io/tools/swagger-ui/) Springdoc OpenAPI UI 1.6.5
 - [![NPM](https://img.shields.io/badge/apache_maven-C71A36?style=for-the-badge&logo=apachemaven&logoColor=white)](https://maven.apache.org/) (Gerenciador de dependências)
