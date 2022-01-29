@@ -1,5 +1,6 @@
 package one.digitalinovation.gof.domain;
 
+import java.io.Serializable;
 import java.util.HashSet;
 import java.util.Set;
 
@@ -24,7 +25,8 @@ import lombok.Setter;
 @NoArgsConstructor
 @Getter
 @EqualsAndHashCode(onlyExplicitlyIncluded = true)
-public class People{
+public class People implements Serializable{
+	private static final long serialVersionUID = 1L;
 	
 	@Id @GeneratedValue(strategy = GenerationType.IDENTITY)
 	@Include

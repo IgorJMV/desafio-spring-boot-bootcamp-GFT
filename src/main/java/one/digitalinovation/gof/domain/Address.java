@@ -1,5 +1,6 @@
 package one.digitalinovation.gof.domain;
 
+import java.io.Serializable;
 import java.util.HashSet;
 import java.util.Set;
 
@@ -22,7 +23,8 @@ import lombok.Setter;
 @NoArgsConstructor
 @Getter
 @EqualsAndHashCode(onlyExplicitlyIncluded = true)
-public class Address{
+public class Address implements Serializable{
+	private static final long serialVersionUID = 1L;
 	
 	@Id
 	@Include
