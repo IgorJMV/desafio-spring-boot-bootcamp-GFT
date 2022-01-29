@@ -3,6 +3,7 @@ package one.digitalinovation.gof.services;
 import java.util.List;
 
 import org.springframework.beans.factory.annotation.Autowired;
+import org.springframework.dao.DataIntegrityViolationException;
 import org.springframework.stereotype.Service;
 
 import one.digitalinovation.gof.domain.Address;
@@ -59,7 +60,11 @@ public class AddressService {
 	}
 	
 	public void deleteByCep(String cep) {
-		repository.deleteById(cep);
+		try {
+			repository.deleteById(cep);
+		} catch (DataIntegrityViolationException e) {
+			System.err.println("Exitem pessoas cadastradas neste endereço no banco de dados.");
+		}
 	}
 	
 }
